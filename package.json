@@ -1,0 +1,23 @@
+{
+  "name": "opentalkjs",
+  "version": "1.0.0",
+  "description": "chatbot application",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deep7133/OPENTALKJS.git"
+  },
+  "author": "deep menpara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deep7133/OPENTALKJS/issues"
+  },
+  "homepage": "https://github.com/Deep7133/OPENTALKJS#readme",
+  "dependencies": {
+    "ollama": "^0.5.11"
+  },
+  "type": "module"
+}
