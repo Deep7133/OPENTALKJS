@@ -1,0 +1,31 @@
+To learn data structures and algorithms in 3 months, focus on the following condensed study plan:
+
+**Weeks 1-2: Fundamentals**
+
+* Learn basic concepts: arrays, linked lists, stacks, queues, trees (binary search tree, AVL tree), graphs
+* Understand algorithmic thinking: time complexity, space complexity, Big O notation
+
+**Weeks 3-4: Data Structures**
+
+* Study advanced data structures:
+ + Heaps
+ + Hash tables
+ + Trie
+ + Graph algorithms (BFS, DFS, Dijkstra's)
+* Practice implementing data structures in a programming language
+
+**Weeks 5-6: Algorithms**
+
+* Learn and implement common algorithms:
+ + Sorting (quick sort, merge sort, heap sort)
+ + Searching (linear search, binary search)
+ + Dynamic programming
+ + Greedy algorithms
+ + Recursion
+* Focus on understanding algorithmic trade-offs and complexities
+
+**Week 7-12: Practice and Review**
+
+* Practice solving problems on platforms like LeetCode, HackerRank, or CodeForces
+* Review and reinforce concepts through practice exercises and projects
+* Focus on applying knowledge to real-world problems
