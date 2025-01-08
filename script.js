@@ -39,7 +39,6 @@
 // }
 
 // stage 3:
-
 import ollama from "ollama";
 import fs from "fs/promises";
 import path from "path";
@@ -55,22 +54,20 @@ async function readQuestionsAndAnswer() {
     // Read all files in the Questions folder
     const questionFiles = await fs.readdir(questionsFolder);
 
-    // Process each question file
-    await Promise.all(
-      questionFiles.map(async (file) => {
-        const questionPath = path.join(questionsFolder, file);
-        const answerPath = path.join(answersFolder, file);
+    // Process each question file sequentially
+    for (const file of questionFiles) {
+      const questionPath = path.join(questionsFolder, file);
+      const answerPath = path.join(answersFolder, file);
 
-        try {
-          const questionContent = await fs.readFile(questionPath, "utf-8");
-          const answerContent = await askQuestion(questionContent);
-          await fs.writeFile(answerPath, answerContent);
-          console.log(`Processed: ${file}`);
-        } catch (error) {
-          console.error(`Error processing ${file}:`, error.message);
-        }
-      })
-    );
+      try {
+        const questionContent = await fs.readFile(questionPath, "utf-8");
+        const answerContent = await askQuestion(questionContent);
+        await fs.writeFile(answerPath, answerContent);
+        console.log(`Processed: ${file}`);
+      } catch (error) {
+        console.error(`Error processing ${file}:`, error.message);
+      }
+    }
 
     console.log("All questions processed.");
   } catch (error) {
