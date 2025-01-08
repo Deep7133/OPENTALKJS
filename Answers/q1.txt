@@ -1,0 +1,41 @@
+**Bug Report**
+
+**Title:** Issue with Form Submission on Website
+
+**Reported by:** John Doe
+**Email:** [johndoe@example.com](mailto:johndoe@example.com)
+**Date:** March 10, 2023
+**Browser:** Google Chrome (latest version)
+**Operating System:** Windows 11 (latest version)
+
+**Description of the issue:**
+
+I encountered an issue with the form submission on your website. When I submit a form, the data does not appear to be processed correctly. Instead of receiving a confirmation message or notification, the page reloads and redirects me back to the homepage.
+
+**Steps to reproduce the issue:**
+
+1. Visit the website [www.example.com](http://www.example.com).
+2. Click on the "Contact Us" form.
+3. Fill out the required fields (name, email, message).
+4. Click on the "Submit" button.
+5. Observe that the page reloads and redirects me back to the homepage.
+
+**Expected behavior:**
+
+The expected behavior is for the form submission to be processed successfully, resulting in a confirmation message or notification.
+
+**Troubleshooting steps taken so far:**
+
+I have tried the following troubleshooting steps:
+
+1. Checked the website's network connection.
+2. Verified that the browser and operating system are up-to-date.
+3. Tried submitting the form multiple times to confirm the issue is not temporary.
+
+**Additional information:**
+
+Please provide any additional details or information you require from me to further assist in resolving this issue.
+
+**Attachments:** None
+
+**Priority:** Medium
